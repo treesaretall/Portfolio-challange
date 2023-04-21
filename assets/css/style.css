@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: flex;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 10;
+    padding: 10;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header {
+    background-image: url(https://images.pexels.com/photos/3389466/pexels-photo-3389466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  main {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  section {
+    margin: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  section li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  

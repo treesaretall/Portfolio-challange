@@ -1,0 +1,56 @@
+/* Box sizing border-box reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+  }
+  
+  /* Remove margin and padding */
+  html, body, header, footer, section, article, aside, nav, main {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove default hyperlink styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove default form styles */
+  button, input, select, textarea {
+    font-size: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+  }
+  
+  /* Remove default button styles */
+  button {
+    cursor: pointer;
+  }
+  
+  /* Remove default focus styles */
+  :focus {
+    outline: none;
+  }
+  
+  /* Set default font family and font size */
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Set default box-shadow to none */
+  box-shadow: none;
+  
+  /* Set default border-radius to none */
+  border-radius: 0;
+  
