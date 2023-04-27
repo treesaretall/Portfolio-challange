@@ -1,13 +1,18 @@
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+# My Portfolio
+This is a brief summary of my project history with a little bit about me and how to get in contact with me.
+
+![Photo of portfolio webpage](./assets/css/Images/Screenshot%202023-04-25%20at%208.12.51%20PM.png)
+## Getting Started
+To run this website on your local machine, you'll need to have a web browser installed. Here are the steps:
+- Clone the repository to your local machine using Git or download the ZIP file.
+- Navigate to the project directory in your terminal or command prompt.
+- Open the index.html file in your preferred web browser.
+
+## Usage
+This website is meant to demonstrate my work in web development. Feel free to browse the pages and explore the various features implemented.
+
+## Contributing
+We welcome contributions from anyone who would like to improve this website. If you notice any bugs or have suggestions for new features, please open an issue on the GitHub repository.
+
+## Credits
+This website was created by Matthew Wayne Hurst.
